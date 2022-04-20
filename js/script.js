@@ -1,4 +1,3 @@
-
 const hamburger = document.querySelector('.hamburger');
 const header = document.querySelector('.header-bottom');
 const logo = document.querySelector('.logo');
