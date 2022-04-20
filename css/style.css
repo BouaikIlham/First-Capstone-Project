@@ -410,6 +410,7 @@ body {
   body {
     background-position-y: 100px;
     font-size: 16px;
+    background: url(../images/background-desktop.png) no-repeat;
   }
 
   .navbar {
