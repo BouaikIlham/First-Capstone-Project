@@ -37,7 +37,7 @@ body {
 }
 
 .navbar.active {
-  background: linear-gradient(90deg, #d3d3d3cc, #ec5242);
+  background: linear-gradient(90deg, #d3d3d3cc, #8c42ec);
   position: fixed;
   height: 3900px;
   top: 0;
@@ -105,8 +105,9 @@ body {
 
 .header-bottom .nav-link.active {
   text-decoration: none;
-  color: #272a31;
+  color: #0d0e0f;
   font-family: 'cocogoose', sans-serif;
+  font-size: 20px;
 }
 
 .main-nav.active {
