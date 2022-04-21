@@ -292,11 +292,13 @@ body {
   z-index: -1;
   top: -0.8rem;
   left: -0.8rem;
+  margin-left: 10px;
 }
 
 .portrait {
   width: 100%;
   height: auto;
+  margin-left: 10px;
 }
 
 .sponsor-info {
@@ -388,9 +390,10 @@ body {
 }
 
 .partner-container figure {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   cursor: pointer;
   width: 200%;
+  margin-left: 20px;
 }
 
 .last {
@@ -460,7 +463,7 @@ body {
 
   .logo {
     padding: 0;
-    width: 20%;
+    width: 15%;
     position: relative;
     display: inline-block;
     visibility: visible;
@@ -646,6 +649,8 @@ body {
   .partner img {
     width: 100px;
     height: auto;
+    margin-left: 20px;
+    margin-top: 35px;
   }
 
   .partner-container {
