@@ -136,7 +136,7 @@ body {
 
 .quote {
   display: inline-block;
-  color: #ec5242;
+  color: #fe1900;
   font-family: 'cocogoose1', sans-serif;
   font-weight: 200;
   font-size: 20px;
@@ -164,6 +164,11 @@ body {
 
 .work-hour {
   margin: 0 0 10px;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
 }
 
 .program {
@@ -266,7 +271,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin: 0 30px;
   width: calc(100% - 20px);
 }
@@ -278,17 +283,19 @@ body {
 }
 
 .sponsor-name {
-  margin-left: -80px;
+  display: flex;
+  text-align: start;
+  margin-left: 14px;
 }
 
 .sponspo-avatar {
-  width: 200px;
+  width: 100px;
   position: relative;
   z-index: 1;
 }
 
 .img {
-  width: 80%;
+  width: 100px;
   position: absolute;
   z-index: -1;
   top: -0.8rem;
@@ -297,20 +304,22 @@ body {
 }
 
 .portrait {
-  width: 100%;
+  width: 200px;
   height: auto;
   margin-left: 10px;
 }
 
 .sponsor-info {
-  text-align: center;
+  text-align: start;
   margin-top: 80px;
+  margin-left: 120px;
 }
 
 .sponsor-bio {
   margin: 15px;
   display: flex;
   flex-direction: column;
+  text-align: start;
   gap: 10px;
   font-size: 0.8rem;
 }
@@ -355,15 +364,16 @@ body {
 }
 
 .partner img {
-  width: 40%;
+  width: 120px;
   height: auto;
+  border: 5px solid;
 }
 
 .partner-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   width: 100%;
-  margin: 30px 0 0;
+  margin: 30px 10px 0;
   justify-content: space-around;
 }
 
@@ -391,7 +401,7 @@ body {
 }
 
 .partner-container figure {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   cursor: pointer;
   width: 200%;
   margin-left: 20px;
@@ -406,7 +416,7 @@ body {
 }
 
 .last img {
-  width: 20%;
+  width: 25%;
   height: auto;
 }
 
@@ -524,7 +534,7 @@ body {
 
   .goal {
     margin: 20px 0;
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .ideal {
@@ -540,6 +550,7 @@ body {
 
   .work-hour {
     margin: 0 0 10px;
+    font-size: 2rem;
   }
 
   .program {
@@ -626,6 +637,10 @@ body {
     width: 80%;
   }
 
+  .sponsor-info {
+    margin-left: 120px;
+  }
+
   .sponsor1 {
     display: flex;
     flex-direction: row;
@@ -633,13 +648,13 @@ body {
   }
 
   .img {
-    width: 70%;
+    width: 100px;
     top: -1rem;
     left: -1rem;
   }
 
   .portrait {
-    width: 100%;
+    width: 200px;
     height: auto;
   }
 
@@ -648,7 +663,7 @@ body {
   }
 
   .partner img {
-    width: 100px;
+    width: 170px;
     height: auto;
     margin-left: 20px;
     margin-top: 35px;
@@ -656,7 +671,7 @@ body {
 
   .partner-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     width: 80%;
     height: 200px;
     margin: 50px auto 0;
@@ -697,14 +712,16 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 30px;
-    height: 150px;
+    height: 120px;
     text-align: center;
     margin: 0 auto;
     width: 750px;
+    background-color: black;
+    color: white;
   }
 
   .last img {
-    width: 20%;
+    width: 35%;
     height: 120px;
   }
 }

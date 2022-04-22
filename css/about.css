@@ -27,6 +27,9 @@
 .about-us {
   width: 85%;
   margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .contact {
@@ -200,6 +203,9 @@
   .contact {
     width: 60%;
     margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 
   .about-quote {
@@ -207,7 +213,7 @@
   }
 
   .about-goal {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .about-ideal {
