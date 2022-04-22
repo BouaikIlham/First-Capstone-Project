@@ -4,10 +4,12 @@
 
 # First-Capstone-Project
 - In Desktop :
-![Responsive-WbSite](images/screenshotDesktp.png)
+
+- ![Responsive-WbSite](images/screenshotDesktp.png)
 
 - In mobile :
-![Responsive-WbSite](images/screenShotMobile.png)
+
+- ![Responsive-WbSite](images/screenShotMobile.png)
 
 ## Live 
 [Live version]( https://bouaikilham.github.io/First-Capstone-Project/)

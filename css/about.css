@@ -170,7 +170,7 @@
 }
 
 .about-last {
-  color: #fff;
+  color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -188,7 +188,7 @@
 }
 
 .about-last img {
-  width: 20%;
+  width: 30%;
   height: 90px;
 }
 
@@ -265,6 +265,7 @@
     text-align: center;
     display: block;
     position: relative;
+    background-color: #000;
   }
 
   .about-last-container {

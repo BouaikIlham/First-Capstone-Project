@@ -366,7 +366,6 @@ h2 {
 .partner img {
   width: 120px;
   height: auto;
-  border: 5px solid;
 }
 
 .partner-container {
@@ -403,8 +402,20 @@ h2 {
 .partner-container figure {
   padding-bottom: 25px;
   cursor: pointer;
-  width: 200%;
+  width: 100%;
   margin-left: 20px;
+}
+
+@media only screen and (max-width: 613px) {
+  .partner-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 10px 0;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: -17px;
+  }
 }
 
 .last {
@@ -706,6 +717,10 @@ h2 {
     font-family: 'cocogoose1', sans-serif;
   }
 
+  .home-last {
+    background: #0d0e0f;
+  }
+
   .last {
     display: flex;
     flex-direction: row;
@@ -716,7 +731,6 @@ h2 {
     text-align: center;
     margin: 0 auto;
     width: 750px;
-    background-color: black;
     color: white;
   }
 
